@@ -1,0 +1,40 @@
+html,body{
+    margin:0;
+    height:100%;
+}
+
+/* background image */
+body{
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  object-fit: fill;
+  background-size: 100% 100%;
+  overflow: hidden;
+  
+  
+}
+
+/* post Buttons Container */
+.postButtons {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* post Buttons */
+.pbtn {
+
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  
+  margin: 5px 4px 350px 10px;
+  background-color:#cfb53b;
+}
+
+

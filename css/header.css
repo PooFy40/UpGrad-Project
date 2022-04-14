@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+/* SignIn SignUp Buttons CSS */
+.mybtn {
+  
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  float: right;
+  margin: 5px 10px 5px 5px;
+  color: white;
+  background-color: #0000ff;
+}
+
+/* ScriBBler logo CSS */
+#logo{
+  font-family: 'Satisfy', cursive;
+  color: blue;
+  font-size: 60px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+/* tagline CSS */
+#tagline{
+  font-family: 'Marck Script', cursive;
+  font-size: 18px;
+  margin: 10px;
+}
+

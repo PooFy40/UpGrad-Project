@@ -3,34 +3,83 @@
   <head>
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/header.css" />
-    
+
     <!-- TODO: Include Font Awesome file here -->
-    
+
     <!-- TODO: Include Google Fonts file here -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-
     <!-- SignIn SignUp Buttons -->
     <span>
-      <button class="mybtn">Sign Up</button>
-      <button class="mybtn">Sign In</button>
+      <button id="signup" class="mybtn">Sign Up</button>
+      <button id="signin" class="mybtn">Sign In</button>
       <h1 id="logo">ScriBBler</h1>
-      <label id="tagline" >Explore, Imagine, Create</label> 
+      <label id="tagline">Explore, Imagine, Create</label>
       
+
       <!-- post Buttons -->
     </span>
     <span class="postButtons">
-          
       <button class="pbtn">All Posts</button>
       <button class="pbtn">Create Post</button>
     </span>
 
-    <!-- <img src="images/background.jpg" alt=""> -->
+    
 
+    <!-- The Modal sign up -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div id="raju" class="modal-content">
+        <form action="">
+        <span class="close">&times;</span>
+        <h1 class="signupheading" style="text-align: center;">Get Started</h1>
+        <hr style="margin-bottom: 25px;">
+        <span class="signupdetails">Full Name</span><br>
+        <input required type="text" placeholder="Enter Full Name" class="signupinputes">
+        <br>
+        <span class="signupdetails">Username</span><br>
+        <input required type="text" placeholder="Enter Username" class="signupinputes">
+        <br>
+        <span class="signupdetails">Password</span><br>
+        <input required type="password" placeholder="Enter Password" class="signupinputes">
+        <br>
+        <span class="signupdetails">Confirm Password</span><br>
+        <input required type="password" placeholder="Confirm Password" class="signupinputes">
+        <br>
+        <button type="submit"  id="signupinside">Sign Up</button>
+      </form>
+      </div>
+    </div>
+  
+    <!-- <img src="images/background.jpg" alt=""> -->
+    <!-- The Modal sign up after -->
+    <div id="myModal2" class="modal2">
+      <!-- Modal content -->
+      <div class="modal-content2">
+          <form action="">
+          <span class="close2">&times;</span>
+          <h1 class="signupheading2" style="text-align: center;">Wellcome Back!</h1>
+          <hr style="margin-bottom: 25px;">
+          <span class="signupdetails2">Username</span><br>
+          <input required type="text" placeholder="Enter Username" class="signupinputes2">
+          <br>
+          <span class="signupdetails2">Password</span><br>
+          <input required type="password" placeholder="Enter Password" class="signupinputes2">
+          <br>
+          <button type="submit"  id="signupinside2"> Sign In</button>
+        </form>
+
+        <div id="member">Not a member? <a href="javascript:void(0)" id="link">Sign Up</a> </div>
+        </div>
+      </div>
+    
     <!-- TODO: Include all your code for the header and home page here -->
   </body>
   <script src="js/header.js"></script>

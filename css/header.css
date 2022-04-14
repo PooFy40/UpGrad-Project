@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* SignIn SignUp Buttons CSS */
 .mybtn {
   
@@ -29,4 +30,157 @@
   font-size: 18px;
   margin: 10px;
 }
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow:hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 1% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 25%; /* Could be more or less, depending on screen size */
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signupdetails{
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+}
+
+.signupheading{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+}
+
+.signupinputes{
+  outline: none;
+  background-color: #F0F1F0;
+  width:91.5%;
+  font-size: large;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 0;
+  padding: 20px 20px 20px 20px ;
+}
+
+#signupinside{
+  width:100%;
+  border: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: large;
+  color: white;
+  background-color: #5FB763;
+  padding: 20px 20px 20px 20px ;
+}
+
+/* css 2 */
+
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow:hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 1% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 25%; /* Could be more or less, depending on screen size */
+
+}
+
+/* The Close Button */
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signupdetails2{
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+}
+
+.signupheading2{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+}
+
+.signupinputes2{
+  outline: none;
+  background-color: #F0F1F0;
+  width:91.5%;
+  font-size: large;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 0;
+  padding: 20px 20px 20px 20px ;
+}
+
+#signupinside2{
+  width:100%;
+  border: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: large;
+  color: white;
+  background-color: #5FB763;
+  padding: 20px 20px 20px 20px ;
+}
+
+#member{
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+}
+
+
 

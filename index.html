@@ -27,18 +27,18 @@
       <!-- post Buttons -->
     </span>
     <span class="postButtons">
-      <button class="pbtn">All Posts</button>
+      <button class="pbtn" id="allposts" >All Posts</button>
       <button class="pbtn">Create Post</button>
     </span>
 
     
 
     <!-- The Modal sign up -->
-    <div id="myModal" class="modal">
+    <div id="signupModal" class="signupmodal">
       <!-- Modal content -->
-      <div id="raju" class="modal-content">
+      <div class="signupcontent">
         <form action="">
-        <span class="close">&times;</span>
+        <span class="signupclose">&times;</span>
         <h1 class="signupheading" style="text-align: center;">Get Started</h1>
         <hr style="margin-bottom: 25px;">
         <span class="signupdetails">Full Name</span><br>
@@ -58,29 +58,50 @@
       </div>
     </div>
   
-    <!-- <img src="images/background.jpg" alt=""> -->
-    <!-- The Modal sign up after -->
-    <div id="myModal2" class="modal2">
+    <!-- The Modal sign in -->
+    <div id="signinModal" class="signinmodal">
       <!-- Modal content -->
-      <div class="modal-content2">
+      <div class="signincontent">
           <form action="">
-          <span class="close2">&times;</span>
-          <h1 class="signupheading2" style="text-align: center;">Wellcome Back!</h1>
+          <span class="signinclose">&times;</span>
+          <h1 class="signinheading" style="text-align: center;">Wellcome Back!</h1>
           <hr style="margin-bottom: 25px;">
-          <span class="signupdetails2">Username</span><br>
-          <input required type="text" placeholder="Enter Username" class="signupinputes2">
+          <span class="signindetails">Username</span><br>
+          <input required type="text" placeholder="Enter Username" class="signininputes">
           <br>
-          <span class="signupdetails2">Password</span><br>
-          <input required type="password" placeholder="Enter Password" class="signupinputes2">
+          <span class="signindetails">Password</span><br>
+          <input required type="password" placeholder="Enter Password" class="signininputes">
           <br>
-          <button type="submit"  id="signupinside2"> Sign In</button>
+          <button type="submit"  id="signininside"> Sign In</button>
         </form>
 
         <div id="member">Not a member? <a href="javascript:void(0)" id="link">Sign Up</a> </div>
         </div>
       </div>
     
+
+      <!-- The Modal all posts -->
+    <div id="allpostmodal" class="postmodal">
+      <!-- Modal content -->
+      <div class="allpost-content">
+          <form action="">
+          <span class="allpostclose">&times;</span>
+          <h1 class="allpostheading" style="text-align: center;">Pen Your Post</h1>
+          <span class="allpostdetails">Title:</span><br>
+          <input required type="text" class="allpostinput">
+          <br>
+          <span class="allpostdetails">Content:</span><br>
+          <textarea  required rows="29" id="contentarea"></textarea>
+          <br>
+          <button type="submit"  id="createbtn">Create</button>
+        </form>
+        </div>
+      </div>
+
+
+
     <!-- TODO: Include all your code for the header and home page here -->
   </body>
   <script src="js/header.js"></script>
+  <script src="js/index.js"></script>
 </html>

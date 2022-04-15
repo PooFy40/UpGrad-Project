@@ -33,7 +33,7 @@
 
 
 /* The Modal (background) */
-.modal {
+.signupmodal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -47,7 +47,7 @@
 }
 
 /* Modal Content/Box */
-.modal-content {
+.signupcontent {
   background-color: #fefefe;
   margin: 1% auto; /* 15% from the top and centered */
   padding: 20px;
@@ -57,15 +57,15 @@
 }
 
 /* The Close Button */
-.close {
+.signupclose {
   color: #aaa;
   float: right;
   font-size: 40px;
   font-weight: 1000;
 }
 
-.close:hover,
-.close:focus {
+.signupclose:hover,
+.signupclose:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
@@ -106,7 +106,7 @@
 /* css 2 */
 
 /* The Modal (background) */
-.modal2 {
+.signinmodal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -120,7 +120,7 @@
 }
 
 /* Modal Content/Box */
-.modal-content2 {
+.signincontent {
   background-color: #fefefe;
   margin: 1% auto; /* 15% from the top and centered */
   padding: 20px;
@@ -130,31 +130,31 @@
 }
 
 /* The Close Button */
-.close2 {
+.signinclose {
   color: #aaa;
   float: right;
   font-size: 40px;
   font-weight: 1000;
 }
 
-.close2:hover,
-.close2:focus {
+.signinclose:hover,
+.signinclose:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
 
-.signupdetails2{
+.signindetails{
   font-family: 'Oswald', sans-serif;
   font-size: x-large;
 }
 
-.signupheading2{
+.signinheading{
   font-family: 'Oswald', sans-serif;
   font-weight: 100;
 }
 
-.signupinputes2{
+.signininputes{
   outline: none;
   background-color: #F0F1F0;
   width:91.5%;
@@ -165,7 +165,7 @@
   padding: 20px 20px 20px 20px ;
 }
 
-#signupinside2{
+#signininside{
   width:100%;
   border: 0;
   margin-top: 20px;

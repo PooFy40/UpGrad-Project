@@ -1,59 +1,55 @@
-var modal2 = document.getElementById("myModal2");
 // Get the modal
-var modal = document.getElementById("myModal");
+var signupModal = document.getElementById("signupModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("signup");
+var signup = document.getElementById("signup");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var signupclose = document.getElementsByClassName("signupclose")[0];
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
+signup.onclick = function() {
+  signupModal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+signupclose.onclick = function() {
+  signupModal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal || event.target== modal2) {
-    modal.style.display = "none";
-    
-    modal2.style.display = "none";
+  if (event.target == signupModal) {
+    signupModal.style.display = "none";
   }
 }
 
 // Get the modal
+var signinModal = document.getElementById("signinModal");
 
 // Get the button that opens the modal
-var btn2 = document.getElementById("signin");
+var signin = document.getElementById("signin");
 var btn3 = document.getElementById('link')
 // Get the <span> element that closes the modal
-var span2 = document.getElementsByClassName("close2")[0];
+var signinclose = document.getElementsByClassName("signinclose")[0];
 
 // When the user clicks on the button, open the modal
-btn2.onclick = function() {
-  modal2.style.display = "block";
+signin.onclick = function() {
+  signinModal.style.display = "block";
 }
 btn3.onclick = function() {
-  modal2.style.display="none"
+  signinModal.style.display="none"
   modal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span2.onclick = function() {
-  modal2.style.display = "none";
+signinclose.onclick = function() {
+  signinModal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-// window.onclick = function(event) {
-//   if (event.target == modal2) {
-//     modal2.style.display = "none";
-//   }
-// }
 
-// var link=getElementById('link')
+window.onclick = function(event) {
+  if ( event.target== signinModal) { 
+    signinModal.style.display = "none";
+  }
+}

@@ -37,4 +37,93 @@ body{
   background-color:#cfb53b;
 }
 
+/* css 2 */
+
+/* The Modal (background) */
+.postmodal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow:hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.allpost-content {
+  background-color: #fefefe;
+  margin: 1% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 73%; /* Could be more or less, depending on screen size */
+  height: 95%;
+
+}
+
+/* The Close Button */
+.allpostclose {
+  color: #aaa;
+  float: right;
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+.allpostclose:hover,
+.allpostclose::backdrop {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.allpostdetails{
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+  padding-left: 40px;
+}
+
+.allpostheading{
+  margin-top: -15px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+  font-size: xxx-large;
+}
+
+.allpostinput{
+  outline: none;
+  background-color: #F0F1F0;
+  width:45%;
+  font-size: large;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 0;
+  padding: 20px 20px 20px 20px ;
+  margin-left: 40px;
+}
+
+#contentarea{
+  outline: none;
+  background-color: #F0F1F0;
+  width:91.5%;
+  font-size: large;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 20px 20px 20px 20px ;
+  margin-left: 40px;
+}
+
+#createbtn{
+  outline: none;
+  color: white;
+  background-color: #5FB763;
+  font-size: larger;
+  margin-top: -20px;
+  border: 0;
+  padding: 15px 20px 15px 20px;
+  
+  margin-left: 650px;
+}
 

@@ -40,7 +40,7 @@ body{
 /* css 2 */
 
 /* The Modal (background) */
-.postmodal {
+.createpostmodal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -54,7 +54,7 @@ body{
 }
 
 /* Modal Content/Box */
-.allpost-content {
+.createpost-content {
   background-color: #fefefe;
   margin: 1% auto; /* 15% from the top and centered */
   padding: 20px;
@@ -65,34 +65,34 @@ body{
 }
 
 /* The Close Button */
-.allpostclose {
+.createpostclose {
   color: #aaa;
   float: right;
   font-size: 40px;
   font-weight: 1000;
 }
 
-.allpostclose:hover,
-.allpostclose::backdrop {
+.createpostclose:hover,
+.createpostclose::backdrop {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
 
-.allpostdetails{
+.createpostdetails{
   font-family: 'Oswald', sans-serif;
   font-size: x-large;
   padding-left: 40px;
 }
 
-.allpostheading{
+.createpostheading{
   margin-top: -15px;
   font-family: 'Oswald', sans-serif;
   font-weight: 100;
   font-size: xxx-large;
 }
 
-.allpostinput{
+.createpostinput{
   outline: none;
   background-color: #F0F1F0;
   width:45%;

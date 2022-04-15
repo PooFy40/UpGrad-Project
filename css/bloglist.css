@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+#tagline{
+    color: white;
+}
+
+
+ body {
+    background-color: #FFA500 !important;
+}
+
+#author {
+    position:relative;
+    size-adjust: fixed;
+    font-weight: 900;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px 0px 0px 15px;
+    font-family: Verdana;
+    
+}
+
+#blog {
+    position: relative;
+    border-radius: 15px;
+    width: 35%;
+    min-width: 35%;
+    margin: 13px 55px;
+}
+
+#content {
+    background-color: #E8E8E8;
+    padding: 20px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#title {
+    /*this bit of code hides the content beyond 1 line
+    The -webkit-line-clamp CSS property allows limiting of the contents of a container to the specified number of lines.
+    NOTE: webkit is not production reliable 
+    */
+    /* display: -webkit-box;
+    -webkit-line-clamp: 1 !important; */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 10px 5px 10px 0;
+    font-weight: 900;
+    /* font-size: 1.25rem; */
+    font-family: 'Itim', cursive;
+    font-size: x-large;
+}
+
+#text {
+    /*this bit of code hides the content beyond 1 line*/
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-family: Verdana;
+}
+
+#delBtn {
+    position: absolute;
+    border: none;
+    margin-top: -70px;
+    right: 0;
+    padding-right: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#trashDown {
+    cursor: pointer;
+    
+}
+
+#eliBtn {
+    position: absolute;
+    border: none;
+    right: 0;
+    bottom: 5px;
+    padding-right: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#modalHeader {
+    padding: 30px 15px 0px 15px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+modal-body {
+    line-height: 50px;
+    font-size: large;
+}
+
+.modalButton {
+    border: none;
+    margin: 10px;
+    width: 40%;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.modal.fade .modal-dialog 
+{
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+}
+
+#delpost{
+    top: 30%;
+}

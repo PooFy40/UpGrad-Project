@@ -27,8 +27,8 @@
       <!-- post Buttons -->
     </span>
     <span class="postButtons">
-      <button class="pbtn" id="allposts" >All Posts</button>
-      <button class="pbtn">Create Post</button>
+      <button class="pbtn" onclick="html/postslist.html" id="allposts" >All Posts</button>
+      <button class="pbtn" id="createpost">Create Post</button>
     </span>
 
     
@@ -75,22 +75,22 @@
           <button type="submit"  id="signininside"> Sign In</button>
         </form>
 
-        <div id="member">Not a member? <a href="javascript:void(0)" id="link">Sign Up</a> </div>
+        <div id="member">Not a member? <a href="javascript:void(0)" id="link" style="text-decoration: none;">Sign Up</a> </div>
         </div>
       </div>
     
 
-      <!-- The Modal all posts -->
-    <div id="allpostmodal" class="postmodal">
+      <!-- The Modal create posts -->
+    <div id="createpostmodal" class="createpostmodal">
       <!-- Modal content -->
-      <div class="allpost-content">
+      <div class="createpost-content">
           <form action="">
-          <span class="allpostclose">&times;</span>
-          <h1 class="allpostheading" style="text-align: center;">Pen Your Post</h1>
-          <span class="allpostdetails">Title:</span><br>
-          <input required type="text" class="allpostinput">
+          <span class="createpostclose">&times;</span>
+          <h1 class="createpostheading" style="text-align: center;">Pen Your Post</h1>
+          <span class="createpostdetails">Title:</span><br>
+          <input required type="text" class="createpostinput">
           <br>
-          <span class="allpostdetails">Content:</span><br>
+          <span class="createpostdetails">Content:</span><br>
           <textarea  required rows="29" id="contentarea"></textarea>
           <br>
           <button type="submit"  id="createbtn">Create</button>
@@ -104,4 +104,5 @@
   </body>
   <script src="js/header.js"></script>
   <script src="js/index.js"></script>
+  <script src="js/bloglist.js"></script>
 </html>

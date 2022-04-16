@@ -47,3 +47,10 @@ signinclose.onclick = function() {
   signinModal.style.display = "none";
 }
 
+window.onclick = function(event) {
+  if (event.target == signupModal || event.target == signinModal || event.target == createpostmodal) {
+    signupModal.style.display = "none";
+    signinModal.style.display = "none";
+    createpostmodal.style.display = "none";
+  }
+}

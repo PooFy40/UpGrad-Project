@@ -1,7 +1,4 @@
 var createpostmodal = document.getElementById("createpostmodal");
-var signupModal = document.getElementById("signupModal");
-var signinModal = document.getElementById("signinModal");
-
 // Get the button that opens the modal
 var createpost = document.getElementById("createpost");
 
@@ -19,10 +16,12 @@ createpostclose.onclick = function() {
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == createpostmodal || event.target == signupModal || event.target == signinModal) {
-    createpostmodal.style.display = "none";
-    signupModal.style.display = "none";
-    signinModal.style.display = "none";
-  }
+// window.onclick = function(event) {
+//   if (event.target == createpostmodal) {
+//     createpostmodal.style.display = "none";
+//   }
+// }
+
+function gotobloglist(){
+  location.href = "./html/postslist.html"
 }

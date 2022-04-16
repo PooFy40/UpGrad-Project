@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+#material {
+    padding: 50px 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#posttitle {
+    font-size:xx-large;
+    font-weight: 600;
+    font-family: 'Abel', sans-serif;
+
+}
+
+/* this is a tag id selector which only applies the css to the tag with specific id 
+    I had to do this as the inputs were picking the css from header.css which was used in sign in and sign up modals
+*/
+input#posttitle{
+    width: max-content;
+    padding: 0px 5px;
+    background-color: white;
+    border: solid 1px #FFC0CB;
+    height: fit-content;
+}
+
+textarea#postcontent{
+    width: max-content;
+    padding: 0px 5px;
+    background-color: white;
+    border: solid 1px black;
+}
+
+#postauthor {
+    font-family: 'Niconne', cursive;
+    font-size: 35px;
+}
+
+#edit {
+    padding: 10px 20px 10px 20px;
+    font-size: larger;
+}
+
+.pinkButton {
+    border: 0;
+    color: white;
+    background-color: #fd4671;
+    box-shadow: 0px 5px 12px -4px #fd4671;
+}
+
+#postcontent {
+    padding-top: 20px;
+    font-size: large;
+}
+
+#likeBtn {
+    margin: 20px 0 10px 0;
+    padding: 10px;
+    width: 9%;
+    border-radius: 5px;
+}
+
+#firstOne {
+    
+    font-family: 'Inconsolata', monospace;
+}
+
+textarea#commentText {
+    width: 60%;
+    background-color: white;
+    border: solid 1px black;
+}
+
+#commentBtn {
+    margin: 10px 0;
+    padding: 10px;
+    width: 7%;
+}
+
+#allComments {
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+#comments {
+    background-color: #E2E4E6;
+    padding: 20px;
+    width: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#comment {
+    padding: 20px 20px;
+    margin: 5px;
+    background-color: white;
+}

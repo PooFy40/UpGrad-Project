@@ -26,6 +26,7 @@
     width: 35%;
     min-width: 35%;
     margin: 13px 55px;
+    box-shadow: 0px 5px 12px -4px black;
 }
 
 #content {
@@ -39,8 +40,8 @@
     The -webkit-line-clamp CSS property allows limiting of the contents of a container to the specified number of lines.
     NOTE: webkit is not production reliable 
     */
-    /* display: -webkit-box;
-    -webkit-line-clamp: 1 !important; */
+    display: -webkit-box;
+    -webkit-line-clamp: 1 !important;
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin: 10px 5px 10px 0;
@@ -50,7 +51,7 @@
     font-size: x-large;
 }
 
-#text {
+.blogtext {
     /*this bit of code hides the content beyond 1 line*/
     
     display: -webkit-box;
@@ -74,7 +75,7 @@
     
 }
 
-#eliBtn {
+.eliBtn {
     position: absolute;
     border: none;
     right: 0;
@@ -118,6 +119,3 @@ modal-body {
     transform: none !important;
 }
 
-#delpost{
-    top: 30%;
-}

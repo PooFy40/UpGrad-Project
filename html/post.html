@@ -15,24 +15,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <!--Font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
 <body>
+    
+    <!-- Header -->
+    <!-- SignIn SignUp Buttons -->
 
-    <!-- TODO: Include code for header here -->
     <span>
         <button id="signup" class="mybtn">Sign Up</button>
         <button id="signin" class="mybtn">Sign In</button>
+
+        <!-- LOGO & Tagline  -->
         <h1 id="logo">ScriBBler</h1>
         <label id="tagline">Explore, Imagine, Create</label>
-
+    </span>
+    <!-- Header end here -->    
 
         <!-- The Modal sign up -->
     <div id="signupModal" class="signupmodal">
-        <!-- Modal content -->
         <div class="signupcontent">
           <form action="">
           <span class="signupclose">&times;</span>
@@ -55,9 +55,10 @@
         </div>
       </div>
     
+      <!-- The Modal sign up end here -->
+
       <!-- The Modal sign in -->
       <div id="signinModal" class="signinmodal">
-        <!-- Modal content -->
         <div class="signincontent">
             <form action="">
             <span class="signinclose">&times;</span>
@@ -75,30 +76,38 @@
           <div id="member">Not a member? <a href="javascript:void(0)" id="link" style="text-decoration: none;">Sign Up</a> </div>
           </div>
         </div>
-      
+       <!-- The Modal sign in end here -->
 
+       <!-- Post html content -->
 
         <div id="material" class="d-flex flex-column">
 
+            <!-- Title Of Blog -->
             <div id="titleDiv" class="d-flex justify-content-center">
                 <h3 id="posttitle">title Here</h3>
             </div>
-    
+            
+            <!-- Author Of Blog -->
             <div class="d-flex justify-content-between">
                 <h4 id="postauthor">AuthorName Here</h4>
+
+                <!-- Edit Button Which further changes to save -->
                 <button id="edit" class="pinkButton" onclick="edit()">Edit <i class="fas fa-edit"></i></button>
             </div>
     
+            <!-- Content Of Blog -->
             <div id="contentDiv">
                 <div id="postcontent">PostContent Here</div>
             </div>
+
+             <!-- Like Button Which further changes to Liked -->   
             <button id="likeBtn" class="pinkButton" onclick="like()"><i class="fas fa-thumbs-up"></i> Like</button>
             <p id="firstOne">Be the first one to like this!</p>
+
+            <!-- Comment Button & Comments -->
             <textarea id="commentText" rows="5" placeholder="Leave a comment..." required></textarea>
             <button id="commentBtn" class="pinkButton" onclick="addComment()">Comment</button>
             <p id="allComments">All Comments</p>
-            
-            <!--flex-column-reverse basically reverses the direction of the content such that the last element is displayed at the first position-->
             <div id="comments" class="d-flex flex-column-reverse"></div>
         </div>
 

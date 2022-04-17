@@ -1,3 +1,4 @@
+// Get the modal
 var createpostmodal = document.getElementById("createpostmodal");
 // Get the button that opens the modal
 var createpost = document.getElementById("createpost");
@@ -15,13 +16,8 @@ createpostclose.onclick = function() {
   createpostmodal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-// window.onclick = function(event) {
-//   if (event.target == createpostmodal) {
-//     createpostmodal.style.display = "none";
-//   }
-// }
 
+// When ALL POSTS button is clicked It takes to the Postslist Page
 function gotobloglist(){
   location.href = "./html/postslist.html"
 }

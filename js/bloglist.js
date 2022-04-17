@@ -1,16 +1,15 @@
+// This Function Takes AuthorName,BlogTitle and BlogContent From PostsList Page And Store Them In LocalStorage
+// Which Was Further Retrived And Displayed On Post Page
 function elifn (element) {
 
   let authorname = document.getElementById(`authorpostlist${element}`).innerText
-
-  localStorage.setItem("name", authorname)
-
   let posttitle = document.getElementById(`titlepostlist${element}`).innerText
-
-  localStorage.setItem("title", posttitle)
-
   let content = document.getElementById(`text${element}`).innerText
 
+  localStorage.setItem("name", authorname)
+  localStorage.setItem("title", posttitle)
   localStorage.setItem("content", content)
+
   location.href = './post.html';
 }
 

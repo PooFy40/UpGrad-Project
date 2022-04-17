@@ -1,13 +1,18 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Inconsolata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+/* All Content Of Post Page */
 #material {
     padding: 50px 30px;
     padding-left: 100px;
     padding-right: 100px;
 }
 
+/* Post Title */
 #posttitle {
     font-size:xx-large;
     font-weight: 600;
@@ -15,9 +20,7 @@
 
 }
 
-/* this is a tag id selector which only applies the css to the tag with specific id 
-    I had to do this as the inputs were picking the css from header.css which was used in sign in and sign up modals
-*/
+/* Post Title (EditAble) */
 input#posttitle{
     width: max-content;
     padding: 0px 5px;
@@ -26,23 +29,28 @@ input#posttitle{
     height: fit-content;
 }
 
+/* Blog Content (EditAble) */
 textarea#postcontent{
     width: max-content;
     padding: 0px 5px;
     background-color: white;
     border: solid 1px black;
+    
 }
 
+/* Author Name */
 #postauthor {
     font-family: 'Niconne', cursive;
     font-size: 35px;
 }
 
+/* Edit Button */
 #edit {
     padding: 10px 20px 10px 20px;
     font-size: larger;
 }
 
+/* All Buttons On Page (Edit like Comment) Pink Colored */
 .pinkButton {
     border: 0;
     color: white;
@@ -50,11 +58,13 @@ textarea#postcontent{
     box-shadow: 0px 5px 12px -4px #fd4671;
 }
 
+/* Blog Content */
 #postcontent {
     padding-top: 20px;
     font-size: large;
 }
 
+/* Like Button */
 #likeBtn {
     margin: 20px 0 10px 0;
     padding: 10px;
@@ -62,23 +72,26 @@ textarea#postcontent{
     border-radius: 5px;
 }
 
+/* Line Below Like Button  */
 #firstOne {
-    
     font-family: 'Inconsolata', monospace;
 }
 
+/* Comment Area */
 textarea#commentText {
     width: 60%;
     background-color: white;
     border: solid 1px black;
 }
 
+/* Comment Button */
 #commentBtn {
     margin: 10px 0;
     padding: 10px;
     width: 7%;
 }
 
+/* Comments */
 #allComments {
     margin-top: 20px;
     font-size: large;
@@ -86,6 +99,7 @@ textarea#commentText {
     font-family: 'Playfair Display', serif;
 }
 
+/* Comments Container */
 #comments {
     background-color: #E2E4E6;
     padding: 20px;
@@ -93,6 +107,7 @@ textarea#commentText {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Comments in List */
 #comment {
     padding: 20px 20px;
     margin: 5px;
